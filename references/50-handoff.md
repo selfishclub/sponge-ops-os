@@ -57,6 +57,7 @@ AskUserQuestion: 넣기 / 채팅으로만 / 나중에.
 - `docs/ops-os/out/` 과 로그인 파일은 `.gitignore`.
 - 커밋 전 `git diff --cached` 로 env 파일·키가 없는지 본다.
 - 원격이 있으면 커밋 직후 push. 실패하면 force 하지 않고 알린다.
+- 폴더가 git 저장소가 아니면 커밋을 건너뛰고 "기록은 파일로만 남았다"고 알린다. git 을 쓸지는 사용자가 정한다 (새로 시작하면 `20-form-ladder.md` D 순서).
 
 ## f. 선택 제안 — log 리마인드 예약 작업
 
